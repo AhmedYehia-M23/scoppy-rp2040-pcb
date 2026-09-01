@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="500" viewBox="0 0 1100 500">
+  <style>
+    .box{fill:#f7f7f7;stroke:#222;stroke-width:2;rx:14;ry:14}
+    .title{font:700 22px Arial,sans-serif;fill:#111}
+    .text{font:16px Arial,sans-serif;fill:#333}
+    .arrow{stroke:#444;stroke-width:3;fill:none;marker-end:url(#a)}
+  </style>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#444"/></marker></defs>
+  <text x="550" y="38" text-anchor="middle" class="title">Scoppy Hardware Architecture</text>
+  <rect x="40" y="180" width="200" height="120" class="box"/>
+  <text x="140" y="220" text-anchor="middle" class="title">USB-C &amp; Power</text>
+  <text x="140" y="250" text-anchor="middle" class="text">ESD / filtering</text>
+  <text x="140" y="275" text-anchor="middle" class="text">3.3 V regulation</text>
+  <rect x="330" y="150" width="260" height="180" class="box"/>
+  <text x="460" y="195" text-anchor="middle" class="title">RP2040 Core</text>
+  <text x="460" y="228" text-anchor="middle" class="text">12 MHz clock</text>
+  <text x="460" y="255" text-anchor="middle" class="text">QSPI flash</text>
+  <text x="460" y="282" text-anchor="middle" class="text">SWD / BOOTSEL</text>
+  <rect x="680" y="75" width="350" height="135" class="box"/>
+  <text x="855" y="118" text-anchor="middle" class="title">Analog Front End</text>
+  <text x="855" y="150" text-anchor="middle" class="text">2 measurement channels · MCP6002</text>
+  <text x="855" y="178" text-anchor="middle" class="text">conditioning · filtering · protection</text>
+  <rect x="680" y="285" width="350" height="135" class="box"/>
+  <text x="855" y="328" text-anchor="middle" class="title">Digital I/O</text>
+  <text x="855" y="360" text-anchor="middle" class="text">8 digital inputs</text>
+  <text x="855" y="388" text-anchor="middle" class="text">ADC / GPIO expansion</text>
+  <path d="M240 240 H330" class="arrow"/>
+  <path d="M590 205 C640 205 640 145 680 145" class="arrow"/>
+  <path d="M590 275 C640 275 640 350 680 350" class="arrow"/>
+</svg>
